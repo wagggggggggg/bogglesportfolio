@@ -1,0 +1,38 @@
+@import "responsive";
+@charset "UTF-8";
+/* Body generic styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Banner Styles for logo and padding
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	font-family: 'Lato', serif;
+}
+.h2logo {
+	padding-top: 10px;
+}
+.bannerwords {
+	padding-top: 30px;
+	font-size: 10px;
+}
+.paddingbutton {
+	padding-top: 10px;
+}
+nav { //nav styles
+	li {
+		display: inline;
+		padding: 6px;
+	}
+}
+//styles to manipulate the coat photo
+.canadagoose {
+	width: 100%;
+	height: auto;
+}
+.style {
+	text-align: center;
+}
+@media screen and (max-width: 480px) {
+	.hidden {
+		display: none;
+	}
+}
